@@ -1,4 +1,4 @@
-package icehs.science.chapter02;
+package dreamschool.csourse.chapter02;
 
 public class HelloWorld {
 
