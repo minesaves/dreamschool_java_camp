@@ -4,7 +4,6 @@ public class AccountTest {
 
 	public static void main(String[] args) {
 		Account acc = new Account();
-		acc.accNam = "홍길동";
 		acc.accNo ="123-456789";
 		acc.balance = getUserInput();
 		
@@ -19,6 +18,7 @@ public class AccountTest {
 		System.out.println("45000원을 출금합니다.");
 		acc.withdraw(45000);
 		System.out.println("잔액 : " + acc.balance + "원");
+	}
 		
 		int withdraw(int money) {
 			if(money < 0) {
